@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html { font-size: calc(1em + 1vw) }
+body {
+  background: #8a2387;
+  background: -webkit-linear-gradient(to right, #f27121, #e94057, #8a2387);
+  background: linear-gradient(
+    to bottom,
+    #f27121,
+    #e94057,
+    #8a2387
+  );
+  font-family: 'Roboto', sans-serif;
+}
+h1 { font-size: 2em; font-weight: 800; }
+h2 { font-size: 1.5em }
+p { font-size: 1em }
