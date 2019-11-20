@@ -1,3 +1,8 @@
+h1{
+  font-weight: 800;
+  line-height: 1em;
+  margin-bottom: 0;
+}
 section {
   display: flex;
   justify-content: center;
@@ -11,6 +16,44 @@ section {
 article {
   text-align: center;
   color: white;
-  padding: 40px;
+  padding: 10px 40px;
   box-shadow: 1px 1px 200px rgba(0, 0, 0, 0.8);
+  width: 400px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.header,
+.footer  { flex: 1 100%; }
+.sidebar { flex: 2; }
+.main    { flex: 1; }
+
+.flex-item {
+  padding: 10px;
+}
+.data{
+  font-size:10px;
+  text-align: left;
+}
+code{
+  font-size:8px;
 }
