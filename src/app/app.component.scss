@@ -2,6 +2,7 @@ h1{
   font-weight: 800;
   line-height: 1em;
   margin-bottom: 0;
+  font-size: 4em;
 }
 section {
   display: flex;
@@ -33,10 +34,6 @@ article {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; /* ADJUSTMENT */
-  border: 1px solid black;
-  display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -51,10 +48,13 @@ article {
 .flex-item {
   padding: 10px;
 }
-.data{
-  font-size:10px;
+.data p{
+  font-size: 1em;
   text-align: left;
 }
+p{
+  font-size: 1.25em;
+}
 code{
-  font-size:8px;
+  font-size: 1em;
 }
